@@ -6,22 +6,31 @@ export const metadata = {
 };
 
 const explainer = `
-Some classic (and much-loved) Netlify features were born when most sites we hosted were fully static.
-For example, [Netlify Forms](https://docs.netlify.com/forms/setup/) do their magic based on automatic detection of specially-marked form tags in static HTML files. 
+Analyse Critique propose une exploration approfondie de différents objets d’étude tels que des textes, projets, politiques publiques, productions scientifiques ou données de terrain. Chaque analyse est conçue pour dépasser la simple observation en adoptant une démarche rigoureuse, structurée et réflexive.
 
-This has [required some adjustments](https://docs.netlify.com/forms/setup/#javascript-forms) for the age of SPA and SSR. 
-With modern Next.js versions, no page is truly static: as a developer, you can revalidate any page. However, you can still use our forms.
+Ici, vous trouverez des contenus qui ne se limitent pas à décrire, mais qui interrogent, évaluent, et interprètent. L’objectif est de faire apparaître les forces, les limites, les présupposés et les implications des éléments analysés, tout en formulant des propositions argumentées.
 
-Below is a simple form using \`fetch\` to submit its data to Netlify rather than using full-page navigation. To be detected, form tags must be hosted in static files -
-and \`public/__forms.html\` exists just for this purpose.
+Chaque analyse contient :
 
-Deploy this site to your Netlify account, [enable the forms feature in the UI](https://docs.netlify.com/forms/setup/#enable-form-detection), trigger a build and you can start collecting submissions.
+une présentation claire de l’objet étudié et de son contexte ;
+
+un résumé neutre de ses idées principales ou de sa structure ;
+
+une analyse critique des arguments, du raisonnement, du style et des choix méthodologiques ;
+
+une évaluation des apports et des faiblesses, appuyée sur des critères explicites ;
+
+une prise de position raisonnée sur les enjeux soulevés ;
+
+des pistes de réflexion ou d’amélioration pour aller plus loin.
+
+Cette rubrique s’adresse à toute personne souhaitant approfondir sa compréhension, aiguiser son esprit critique ou enrichir son regard sur des sujets complexes. C’est un espace d’examen lucide, de dialogue intellectuel et de responsabilité intellectuelle face à l’information, à la connaissance et à l’action.
 `;
 
 export default async function Page() {
     return (
         <>
-            <h1 className="mb-8">Netlify Classics</h1>
+            <h1 className="mb-8">Analyse critique</h1>
             <Markdown content={explainer} className="mb-12" />
             <div className="flex justify-center">
                 <FeedbackForm />
