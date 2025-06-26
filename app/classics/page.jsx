@@ -2,7 +2,7 @@ import { FeedbackForm } from 'components/feedback-form';
 import { Markdown } from 'components/markdown';
 
 export const metadata = {
-    title: 'Remarques'
+    title: 'remarques'
 };
 
 const explainer = `

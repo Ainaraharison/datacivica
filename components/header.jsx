@@ -1,15 +1,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import netlifyLogo from 'public/netlify-logo.svg';
+import netlifyLogo from 'public/images/datacivicalogo.svg';
+<Link href="/">
+    <Image src={netlifyLogo} alt="Netlify logo" width={120} height={40} />
+</Link>
 import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'Indicateurs clés', href: '/revalidation' },
+    { linkText: 'Process monitoring', href: '/image-cdn' },
+    { linkText: 'Suivi participatif', href: '/edge' },
+    { linkText: 'Reporting / viz', href: '/blobs' },
+    { linkText: 'Analyse critique', href: '/classics' }
 ];
 
 export function Header() {
@@ -30,7 +33,7 @@ export function Header() {
                 </ul>
             )}
             <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
+                href="https://github.com/Ainaraharison/ainaraharison.github.io"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:inline-flex lg:ml-auto"
