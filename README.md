@@ -1,4 +1,4 @@
-# Next.js on Netlify Platform Starter
+# Datacivica
 
 [Live Demo](https://nextjs-platform-starter.netlify.app/)
 
