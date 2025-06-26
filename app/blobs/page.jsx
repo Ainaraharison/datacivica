@@ -1,33 +1,21 @@
 import { ShapeEditor } from './editor';
-import { ContextAlert } from 'components/context-alert';
-import { Markdown } from 'components/markdown';
-import { getNetlifyContext, uploadDisabled } from 'utils';
+import { ContextAlert } from '../../components/context-alert';
+import { Markdown } from '../../components/markdown';
+import { getNetlifyContext, uploadDisabled } from '../../utils';
 
 export const metadata = {
     title: 'Blobs'
 };
 
 const explainer = `
-[Netlify Blobs](https://docs.netlify.com/blobs/overview/) provides an object store for any kind of data, be it JSON, binary, 
-or [really](https://mk.gg/projects/chalkstream) anything else ([really!](https://mk.gg/projects/turbofan)). In this example, the blob store is used to **hold the data of user-generated random blobby shapes**.
+📊 Reporting & Visualisation des Données
+Le reporting et la visualisation des données désignent l’ensemble des méthodes et outils permettant de transformer des données brutes en informations claires, compréhensibles et exploitables.
 
-Using the blob store is basically zero-config. Below is a Next.js Server Action to upload data (see \`app/blobs/actions.js\`). 
-When deployed to Netlify, the Server Action is run by serverless functions, and all context required for the blob service is set-up automatically.
+Concrètement, il s’agit de collecter, analyser et présenter des données sous forme de tableaux de bord, graphiques interactifs, cartes ou rapports automatisés afin de faciliter la prise de décision.
 
-~~~js
-'use server';
-import { getStore } from '@netlify/blobs';
+🔍 Le reporting consiste à structurer et synthétiser les informations clés dans des rapports périodiques ou personnalisés. Il permet de suivre l’évolution d’indicateurs, de mesurer les performances et d’identifier rapidement les écarts ou tendances.
 
-// TODO: Always be sanitizing data in real sites!
-export async function uploadShape({ shapeData }) {
-    const blobStore = getStore('shapes');
-    const key = data.name;
-    await blobStore.setJSON(key, shapeData);
-}
-~~~
-
-Click "Randomize" to get a shape you like, then hit "Upload".
-Choose any existing object to view it.
+📈 La visualisation des données, quant à elle, met l’accent sur la représentation graphique de ces informations : elle aide à rendre visibles des phénomènes complexes, à détecter des patterns et à communiquer efficacement les résultats à différents types d’utilisateurs, même sans expertise technique;
 `;
 
 const uploadDisabledText = `
@@ -37,11 +25,11 @@ User uploads are disabled in this site. To run your own and try it out:
 </a>
 `;
 
-export default async function Page() {
+export default function Page() {
     return (
         <>
             <ContextAlert
-                addedChecksFunction={(ctx) => {
+                addedChecksFunction={() => {
                     return uploadDisabled ? uploadDisabledText : null;
                 }}
                 className="mb-6"
