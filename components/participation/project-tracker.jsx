@@ -77,7 +77,7 @@ export function ProjectTracker() {
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="bg-gradient-to-r from-primary to-secondary p-6">
                 <h3 className="text-xl font-bold text-white">🏗️ Projets en Suivi Participatif</h3>
-                <p className="text-white/90 text-sm mt-1">Suivez l'avancement des projets de développement en temps réel</p>
+                <p className="text-white/90 text-sm mt-1">Suivez l&apos;avancement des projets de développement en temps réel</p>
             </div>
             
             <div className="divide-y divide-neutral-200">

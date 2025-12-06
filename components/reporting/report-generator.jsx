@@ -172,7 +172,7 @@ export function ReportGenerator() {
                 </div>
 
                 <div className="mt-6 bg-blue-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-900 mb-2">💡 Formats d'Export</h4>
+                    <h4 className="font-semibold text-blue-900 mb-2">💡 Formats d&apos;Export</h4>
                     <div className="flex flex-wrap gap-2">
                         <span className="px-3 py-1 bg-white rounded text-sm font-medium text-neutral-700">PDF</span>
                         <span className="px-3 py-1 bg-white rounded text-sm font-medium text-neutral-700">Excel</span>

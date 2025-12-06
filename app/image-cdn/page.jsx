@@ -121,12 +121,12 @@ export default function Page() {
                             <h3 className="text-primary mb-2">🎯 Indicateurs Clés (KPI)</h3>
                             <ul className="text-neutral-300 space-y-1">
                                 <li>Taux de réussite des opérations</li>
-                                <li>Durée moyenne d'exécution</li>
+                                <li>Durée moyenne d&apos;exécution</li>
                                 <li>Disponibilité du système</li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-primary mb-2">📋 Journal d'Activité</h3>
+                            <h3 className="text-primary mb-2">📋 Journal d&apos;Activité</h3>
                             <ul className="text-neutral-300 space-y-1">
                                 <li>Historique complet des événements</li>
                                 <li>Classification par type</li>
@@ -164,7 +164,7 @@ export default function Page() {
                     </div>
                     <div className="bg-purple-900/30 p-5 rounded-xl border border-purple-700/50 hover:border-purple-500 transition-colors">
                         <h4 className="font-semibold text-purple-300 mb-2 flex items-center gap-2">
-                            <span>📝</span> Journal d'Activité
+                            <span>📝</span> Journal d&apos;Activité
                         </h4>
                         <p className="text-sm text-purple-200">Traçabilité complète des opérations</p>
                     </div>

@@ -35,7 +35,7 @@ export function CitizenFeedbackForm() {
                     <h4 className="text-xl font-bold text-green-800 mb-2">Signalement Enregistré !</h4>
                     <p className="text-green-700">
                         Merci pour votre contribution. Votre signalement a été transmis aux équipes concernées.
-                        Vous recevrez une notification dès qu'une action sera entreprise.
+                        Vous recevrez une notification dès qu&apos;une action sera entreprise.
                     </p>
                 </div>
             ) : (

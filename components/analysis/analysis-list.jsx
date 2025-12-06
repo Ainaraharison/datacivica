@@ -134,7 +134,7 @@ export function AnalysisList() {
                             
                             {analysis.status === 'Publié' && (
                                 <button className="px-6 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:opacity-90 font-semibold">
-                                    Lire l'analyse complète →
+                                    Lire l&apos;analyse complète →
                                 </button>
                             )}
                         </div>

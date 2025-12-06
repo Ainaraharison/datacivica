@@ -55,7 +55,7 @@ export function ActivityLog() {
 
     return (
         <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold text-neutral-900 mb-4">Journal d'Activité</h3>
+            <h3 className="text-xl font-bold text-neutral-900 mb-4">Journal d&apos;Activité</h3>
             <div className="space-y-2 max-h-96 overflow-y-auto">
                 {logs.map((log) => {
                     const style = getTypeStyle(log.type);

@@ -83,16 +83,16 @@ export default function Page() {
             <section className="bg-gradient-to-br from-primary/5 to-secondary/5 p-6 sm:p-8 rounded-2xl border border-primary/20">
                 <div className="prose prose-invert max-w-none">
                     <h2 className="text-white mb-4">🔍 Le Reporting</h2>
-                    <p className="text-neutral-200 mb-4">Le reporting consiste à structurer et synthétiser les informations clés dans des rapports périodiques ou personnalisés. Il permet de :</p>
+                    <p className="text-neutral-200 mb-4">Le reporting consiste à structurer et synthétiser les informations clés dans des rapports périodiques ou personnalisés. Il permet de&nbsp;:</p>
                     <ul className="text-neutral-200 space-y-1 mb-6">
-                        <li>Suivre l'évolution d'indicateurs de développement</li>
+                        <li>Suivre l&apos;évolution d&apos;indicateurs de développement</li>
                         <li>Mesurer les performances sectorielles</li>
                         <li>Identifier rapidement les écarts ou tendances</li>
                         <li>Faciliter la prise de décision basée sur les données</li>
                     </ul>
                     
                     <h2 className="text-white mb-4">📈 La Visualisation des Données</h2>
-                    <p className="text-neutral-200 mb-4">La visualisation met l'accent sur la représentation graphique des informations. Elle permet de :</p>
+                    <p className="text-neutral-200 mb-4">La visualisation met l&apos;accent sur la représentation graphique des informations. Elle permet de&nbsp;:</p>
                     <ul className="text-neutral-200 space-y-1 mb-6">
                         <li>Rendre visibles des phénomènes complexes</li>
                         <li>Détecter des patterns et corrélations</li>
@@ -104,9 +104,9 @@ export default function Page() {
                     <p className="text-neutral-200 mb-2">Ces outils sont essentiels pour :</p>
                     <ul className="text-neutral-200 space-y-1">
                         <li>Le suivi des Objectifs de Développement Durable (ODD)</li>
-                        <li>L'évaluation des politiques publiques</li>
+                        <li>L&apos;évaluation des politiques publiques</li>
                         <li>La transparence des budgets et dépenses</li>
-                        <li>L'engagement citoyen dans la gouvernance</li>
+                        <li>L&apos;engagement citoyen dans la gouvernance</li>
                     </ul>
                 </div>
             </section>

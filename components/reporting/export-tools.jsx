@@ -41,7 +41,7 @@ export function DataExportTools() {
                 </div>
 
                 <div className="mt-6 bg-neutral-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-neutral-900 mb-2 text-sm">⚙️ Options d'Export</h4>
+                    <h4 className="font-semibold text-neutral-900 mb-2 text-sm">⚙️ Options d&apos;Export</h4>
                     <div className="space-y-2 text-sm">
                         <label className="flex items-center gap-2 text-neutral-700">
                             <input type="checkbox" className="w-4 h-4" defaultChecked />

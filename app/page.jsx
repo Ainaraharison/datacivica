@@ -52,7 +52,7 @@ export default function Page() {
                             <div className="h-1.5 bg-gradient-to-r from-primary via-accent to-secondary rounded-full mt-4"></div>
                         </div>
                         <p className="text-lg sm:text-xl text-neutral-300 max-w-3xl">
-                            Plateforme de données ouvertes, d'analyses critiques et de suivi participatif 
+                            Plateforme de données ouvertes, d&apos;analyses critiques et de suivi participatif 
                             pour le développement durable de Madagascar 🇲🇬
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center mt-4">

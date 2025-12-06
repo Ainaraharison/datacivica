@@ -38,7 +38,7 @@ export function MethodologyCard() {
         <div className="bg-gradient-to-br from-blue-50 to-teal-50 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-neutral-900 mb-4">📋 Cadre Méthodologique</h3>
             <p className="text-neutral-700 mb-6">
-                Nos analyses critiques s'appuient sur des critères reconnus d'évaluation des politiques publiques :
+                Nos analyses critiques s&apos;appuient sur des critères reconnus d&apos;évaluation des politiques publiques&nbsp;:
             </p>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -54,7 +54,7 @@ export function MethodologyCard() {
             <div className="mt-6 bg-white p-4 rounded-lg">
                 <h4 className="font-semibold text-neutral-900 mb-2">🔍 Démarche Analytique</h4>
                 <ol className="list-decimal list-inside space-y-2 text-sm text-neutral-700">
-                    <li>Contextualisation et cadrage de l'objet d'étude</li>
+                    <li>Contextualisation et cadrage de l&apos;objet d&apos;étude</li>
                     <li>Collecte et triangulation des données</li>
                     <li>Analyse comparative et benchmarking</li>
                     <li>Évaluation multicritère</li>

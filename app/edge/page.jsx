@@ -86,8 +86,8 @@ export default function ParticipationPage() {
                             <ul className="text-neutral-200 space-y-2">
                                 <li><strong>Transparence</strong> : Renforcer la redevabilité des institutions</li>
                                 <li><strong>Savoirs locaux</strong> : Valoriser les expériences vécues sur le terrain</li>
-                                <li><strong>Qualité des données</strong> : Améliorer la collecte par l'observation directe</li>
-                                <li><strong>Appropriation</strong> : Encourager l'engagement collectif dans les solutions</li>
+                                <li><strong>Qualité des données</strong> : Améliorer la collecte par l&apos;observation directe</li>
+                                <li><strong>Appropriation</strong> : Encourager l&apos;engagement collectif dans les solutions</li>
                             </ul>
                             <h3 className="text-primary mt-6 mb-3">🌱 Impact et Importance</h3>
                             <p className="text-neutral-200">
@@ -114,7 +114,7 @@ export default function ParticipationPage() {
                             </li>
                             <li className="flex items-start gap-3 text-neutral-300">
                                 <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-sm font-bold text-neutral-900">3</span>
-                                <span>Suivez les mises à jour et l'avancement</span>
+                                <span>Suivez les mises à jour et l&apos;avancement</span>
                             </li>
                             <li className="flex items-start gap-3 text-neutral-300">
                                 <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-sm font-bold text-neutral-900">4</span>
@@ -149,7 +149,7 @@ export default function ParticipationPage() {
                         <h4 className="font-semibold text-green-300 mb-2 flex items-center gap-2">
                             <span>🔔</span> Notifications
                         </h4>
-                        <p className="text-sm text-green-200">Alertes en temps réel sur l'évolution des projets</p>
+                        <p className="text-sm text-green-200">Alertes en temps réel sur l&apos;évolution des projets</p>
                     </div>
                     <div className="bg-purple-900/30 p-5 rounded-xl border border-purple-700/50 hover:border-purple-500 transition-colors">
                         <h4 className="font-semibold text-purple-300 mb-2 flex items-center gap-2">

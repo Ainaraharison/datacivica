@@ -17,7 +17,7 @@ const data = [
 export function EducationChart() {
     return (
         <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold text-neutral-900 mb-4">Indicateurs d'Éducation - Madagascar</h3>
+            <h3 className="text-xl font-bold text-neutral-900 mb-4">Indicateurs d&apos;Éducation - Madagascar</h3>
             <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={data}>
                     <CartesianGrid strokeDasharray="3 3" />

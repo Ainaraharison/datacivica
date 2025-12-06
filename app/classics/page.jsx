@@ -89,8 +89,8 @@ export default async function Page() {
                     <h3 className="text-xl font-bold text-white">Contribuez à nos Analyses</h3>
                 </div>
                 <p className="text-neutral-300 mb-6">
-                    Vous avez des suggestions d'analyses, des remarques sur nos contenus, ou souhaitez partager 
-                    votre expertise sur un sujet spécifique ? N'hésitez pas à nous faire part de vos commentaires.
+                    Vous avez des suggestions d&apos;analyses, des remarques sur nos contenus, ou souhaitez partager 
+                    votre expertise sur un sujet spécifique&nbsp;? N&apos;hésitez pas à nous faire part de vos commentaires.
                 </p>
                 <div className="max-w-2xl mx-auto">
                     <FeedbackForm />
@@ -110,7 +110,7 @@ export default async function Page() {
                         <h4 className="font-semibold text-blue-300 mb-2 flex items-center gap-2">
                             <span>📄</span> Rapports
                         </h4>
-                        <p className="text-sm text-blue-200">Rapports d'évaluation et audits sectoriels</p>
+                        <p className="text-sm text-blue-200">Rapports d&apos;évaluation et audits sectoriels</p>
                     </div>
                     <div className="bg-gradient-to-br from-green-900/30 to-green-800/30 p-5 rounded-xl border border-green-700/50 hover:border-green-500 transition-colors">
                         <h4 className="font-semibold text-green-300 mb-2 flex items-center gap-2">

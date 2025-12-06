@@ -54,7 +54,7 @@ export function EnvironmentChart() {
                 </div>
                 <div>
                     <h4 className="text-lg font-semibold text-neutral-800 mb-2 text-center">
-                        Accès à l'électricité (%)
+                        Accès à l&apos;électricité (%)
                     </h4>
                     <div className="space-y-2 mt-6">
                         {accessData.slice(-5).map((item) => (
