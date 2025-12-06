@@ -4,12 +4,12 @@ import netlifyLogo from 'public/images/datacivicalogo.svg';
 import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Indicateurs clés', href: '/revalidation' },
-    { linkText: 'Process monitoring', href: '/image-cdn' },
-    { linkText: 'Suivi participatif', href: '/edge' },
-    { linkText: 'Reporting / viz', href: '/blobs' },
-    { linkText: 'Analyse critique', href: '/classics' }
+    { linkText: 'Accueil', href: '/' },
+    { linkText: 'Indicateurs Clés', href: '/revalidation' },
+    { linkText: 'Process Monitoring', href: '/image-cdn' },
+    { linkText: 'Suivi Participatif', href: '/edge' },
+    { linkText: 'Reporting & Viz', href: '/blobs' },
+    { linkText: 'Analyse Critique', href: '/classics' }
 ];
 
 export function Header() {

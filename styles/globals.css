@@ -12,6 +12,9 @@
     --color-primary: #2bdcd2;
     --color-primary-content: #171717;
     --color-secondary: #016968;
+    --color-accent: #00d4aa;
+    --color-gradient-start: #2bdcd2;
+    --color-gradient-end: #016968;
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
 }
@@ -19,14 +22,20 @@
 @layer base {
     h1 {
         @apply text-4xl font-bold tracking-tight sm:text-5xl;
+        background: linear-gradient(135deg, #2bdcd2 0%, #016968 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
     }
 
     h2 {
         @apply text-2xl font-bold sm:text-3xl;
+        color: #016968;
     }
 
     h3 {
         @apply text-xl font-bold;
+        color: #016968;
     }
 
     a:not(.btn) {
@@ -59,17 +68,29 @@
     }
 
     .btn {
-        @apply inline-flex items-center justify-center gap-2 font-bold text-center no-underline transition-colors cursor-pointer bg-primary text-primary-content;
+        @apply inline-flex items-center justify-center gap-2 font-bold text-center no-underline cursor-pointer;
+        background: linear-gradient(135deg, #2bdcd2 0%, #00d4aa 100%);
+        color: #171717;
         padding: var(--btn-py, 0.875rem) var(--btn-px, 1.25rem);
         font-size: var(--btn-font-size, 0.875rem);
-        border-radius: var(--btn-border-radius, 0.25rem);
+        border-radius: var(--btn-border-radius, 0.5rem);
+        box-shadow: 0 4px 14px 0 rgba(43, 220, 210, 0.25);
+        transition: all 0.3s ease;
+        transform: translateY(0);
 
         &:hover {
-            @apply bg-primary/85;
+            box-shadow: 0 6px 20px 0 rgba(43, 220, 210, 0.4);
+            transform: translateY(-2px);
+        }
+
+        &:active {
+            transform: translateY(0);
         }
 
         &:disabled {
-            @apply cursor-default text-neutral-400 bg-neutral-700;
+            @apply cursor-default text-neutral-400;
+            background: #374151;
+            box-shadow: none;
         }
     }
 
